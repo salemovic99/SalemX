@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.main {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(30, 30, 94);
+  background-image: url("img/talent\ recruitment\ resume\ delivery_6589964.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+form {
+  width: 27%;
+  height: 70vh;
+  border: none;
+  outline: none;
+
+  background-color: white;
+}
+ 
+form a img{
+  margin-left: 75px;
+}
+
+form div.inputs {
+  padding: 19px 10px;
+}
+form div.inputs input {
+  outline: none;
+  border: 1px solid rgb(187, 182, 182);
+  height: 24px;
+  border-radius: 2px;
+  
+}
+form div.inputs input#f-name {
+  width: 92px;
+  margin-right: 12px;
+  margin-left: 18px;
+  padding: 5px 6px;
+}
+form div.inputs input#l-name {
+  width: 92px;
+  padding: 5px 6px;
+}
+
+form div.inputs input#email {
+  width: 200px;
+  margin-left: 20px;
+  padding: 5px 6px;
+}
+form div.inputs input#passwd {
+  width: 200px;
+ margin-left: -8px;
+ padding: 5px 6px;
+}
+form div.inputs input#con-passwd {
+  width: 200px;
+ margin-left: 4px;
+ padding: 5px 6px;
+}
+form div label {
+  margin: 10px 25px;
+}
+
+
+form div.btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+form div.btn input{
+  width: 212px;
+  height: 27px;
+  outline: none;
+  border: none;
+  background-color: rgb(24, 24, 73);
+  font-size: 1em;
+  color: white;
+  letter-spacing: 3px;
+}
+
+form div.link-to-signin{
+  display: flex;
+  justify-content: center;
+  margin-top: 29px;
+}
+
+form div.link-to-signin h4{
+  font-size: 12px;
+  letter-spacing: 1px;
+
+}
+
+form div.link-to-signin a{
+  text-decoration: none;
+}
